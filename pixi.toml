@@ -40,7 +40,7 @@ jansson = "*"
 [tasks]
 patch = { cwd = "emacs", cmd = """
 git checkout . && \
-patch -p1 < ../patches/alpha-background.patch && \
+patch -p1 < ../patches/transparency.patch && \
 patch -p1 < ../patches/system-appearance.patch && \
 patch -p1 < ../patches/toolbar-disable.patch && \
 echo 'Patches applied successfully.'
